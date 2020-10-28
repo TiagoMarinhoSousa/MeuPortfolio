@@ -1,0 +1,62 @@
+* {
+	box-sizing: border-box;
+	/* preenchimento e a borda estão incluídos na largura ambas as divs têm o mesmo tamanho agora */
+}
+
+.titulo-principal {
+	width: 110%;
+}
+
+h2 {
+	text-align: center;
+	padding: 20px;
+}
+
+h3 {
+	font-size: 14px;
+}
+
+/* Quatro colunas iguais que flutuam próximas uma da outra */
+.column {
+	float: left;
+	width: 33.3333%;
+	padding: 20px;
+	text-align: center;
+	font-size: 12px;
+	border: 1px solid #ccc;
+	background-color:  #F2FFFC;
+}
+
+.column:hover {
+	border: 1px solid #777;
+}
+
+#imagep1{
+	width: auto;
+	height: auto;
+	float: right;
+	border-style: none;
+	border-bottom: 0 ;
+	border-left: 0;
+}
+/* Limpar os floats depos das colunas */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Em telas com largura de 992 px ou menos, passe de 4 para 2 colunas */
+@media screen and (max-width: 992px) {
+	.column {
+		width: 50%;
+	}
+}
+
+/* Em telas com largura de 600 px ou menos, as colunas se emilharem */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+

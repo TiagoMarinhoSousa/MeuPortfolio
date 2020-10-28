@@ -1,0 +1,166 @@
+body {
+	font-family: "Crimson Text", "Times New Roman", serif;
+	background-color: #F2FFFC;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+h1, h2 {
+	font-family: "Open Sans Condensed", "Arial", serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	clear: both;
+}
+
+.titulo-principal {
+	font-size: 60px;
+	background-color: #851944;
+	color: #FFF;
+	text-align: center;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+	padding: 25px;
+	margin: 0;
+	border-bottom: 10px solid #000;
+	text-transform: uppercase;
+	width: 101%;
+	}
+
+.container {
+	width: 75%;
+	margin: auto;
+	padding: 40px 0;
+	padding-bottom: 50px;
+}
+
+p {
+	text-align: justify;
+	margin: 20px 0;
+	}
+
+.navegacao-site {
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	padding: 20px;
+	margin: auto;
+	text-align: center;
+}
+
+aside h1 {
+	font-size: 30px;
+	margin-bottom: 25px;
+	text-transform: uppercase;
+}
+
+aside a {
+	color: inherit;
+	font-family: "Open Sans Condensed", "Arial", sans-serif;
+}
+
+.icones-redes-sociais li {
+	display: inline-block;
+}
+
+.icones-redes-sociais a {
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	color: transparent;
+}
+
+.github {
+	background-image: url(../img/github.png);
+}
+
+.twitter {
+	background-image: url(../img/twitter.png);
+}
+
+.linkedin {
+	background-image: url(../img/linkedin.png);
+}
+nav ul {
+	list-style-type:none;
+}
+
+nav a {
+	color: #F2FFFC;
+	text-transform: lowercase;
+}
+
+main a {
+	color: #851944;
+	}
+
+footer {
+	padding: 20px;
+	clear: both;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.rodape {
+	background-color: #000;
+	color: #F2FFFC;
+	padding: 5px;
+
+}
+
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+u {
+	font-style: unset;
+}
+
+
+
+.minha-foto {
+	float: right;
+	border-bottom: 10px solid #000;
+	border-left: 10px solid #000;
+	box-sizing: border-box;
+}
+
+aside {
+	width: 15%;
+	box-sizing: border-box;
+	position: relative;
+	top: 240px;
+	border-top: 10px solid #000;
+	float: right;
+	border-bottom: 10px solid #000;
+	border-left: 10px solid #000;
+	box-sizing: border-box;
+}
+
+main {
+	float: left;
+	width: 85%;
+}
+
+
+.minha-foto {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+/* Em telas com largura de 992 px ou menos, passe de 4 para 2 colunas */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 75%;
+	}
+}
+
+/* Em telas com largura de 600 px ou menos, as colunas se emilharem */
+@media screen and (max-width: 600px) {
+	.container {
+		width: 50%;
+	}
+}

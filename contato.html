@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contato - Tiago Marinho Sousa</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="img/favicon.png">
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/contato.css">
+	<script type="text/javascript" src="js/contato.js"></script>
+</head>
+<main>
+	<h1 class="titulo-principal">Contato</h1>
+	
+	<form action="#" name="formuser" id="form" method="post">
+	<div id="container">
+		<div class="row">
+			<div class="coluna1 coluna label">
+				<label for="nome">Nome</label>
+			</div>
+			<div class="coluna2 coluna input">
+				<input type="text" id="fname" name="nome" placeholder="Seu Nome..."/>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="coluna1 coluna label">
+				<label for="sobrenome">Sobrenome</label>
+			</div>
+			<div class="coluna2 coluna input">
+				<input type="text" id="fname" name="sobrenome" placeholder="Sobrenome..."/>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="coluna1 coluna label">
+				<label for="email">Email</label>
+			</div>
+			<div class="coluna2 coluna input">
+				<input type="email" id="email" name="email" placeholder="ex.: email@email.com"/>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="coluna1 coluna label">
+				<label for="fone">Telefone</label>
+			</div>
+			<div class="coluna2 coluna input">
+				<input type="phone" id="fone" name="fone" placeholder="+xx(xx) xxxxx-xxxx"/>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="coluna1 coluna label">
+				<label for="mensagem">Assunto</label>
+			</div>
+			<div class="coluna2 coluna input">
+				<textarea name="mensagem" placeholder="Digite sua mensagem aqui..."></textarea>
+			</div> 
+		</div>
+		
+		<div class="button">
+		<button type="submit" form="form" value= "submit" id="button" onclick="enviar();">Enviar</button>
+		</div>
+	</div>
+</form>
+
+	</main>
+	 	<img class="minha-foto" src="img/minha-foto.png" alt="Foto de Tiago Marinho Sousa">
+		<aside class="navegacao-site">
+			<div>
+				<h1 >Tiago Marinho Sousa</h1>
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="projetos.html">Projetos</a></li>
+						<li><a href="bio.html">Sobre Mim</a></li>
+						<li><a href="#topo.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>		
+			<ul class="icones-redes-sociais">
+				<li><a class="github" href="http://github.com/tiagomarinhosousa" target="_blank">Github</a></li>
+				<li><a class="twitter" href="http://twitter.com/tiagomarinho82" target="_blank">Twitter</a></li>
+				<li><a class="linkedin" href="https://linkedin.com/in/tiago-marinho-sousa-955841191/" target="_blank">Linkedin</a></li>
+			</ul>
+		</aside>
+		<footer class="rodape">
+			&copy; Tiago Marinho Sousa 2019
+		</footer>
+</body>
+</html>
